@@ -32,7 +32,7 @@ render(){
             (
                 <div className='tc' >
                     <h1 className='f1'>RoboFriends</h1>
-                    <SearchBox searachChange={this.onSearchChange}/>
+                    <SearchBox searchChange={this.onSearchChange}/>
                     <Scroll>
                         <CardList robots={filterRobots}/> 
                     </Scroll>
